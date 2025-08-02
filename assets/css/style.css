@@ -1,0 +1,159 @@
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F9F9F9;
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    padding: 12px 24px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.menu {
+    width: 146px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 8px;
+}
+
+
+.menu hr {
+    width: 18px;
+    margin: 5px;
+    border: 1px solid #202020;
+}
+
+.menu hr .youtube-logo {
+    width: 90px;
+    height: 20px;
+    position: relative;
+    top: 10px;
+}
+
+.boxes {
+    display: flex;
+}
+
+.search-box {
+    background-color: #FFFFFF;
+    width: 348px;
+    height: 40px;
+    border: 1px solid #CCCCCC;
+}
+
+.search-box-2 {
+    background-color: #FFFFFF;
+    width: 57px;
+    height: 40px;
+    border: 1px solid #CCCCCC;
+    display: flex;
+}
+
+.search-box-2 img {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 8px;
+    left: 15px;
+}
+
+.icons {
+    width: 130px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.icon-video,
+.icon-bell {
+    width: 24px;
+    height: 24px;
+}
+
+.icon-photo {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    width: 90vw;
+}
+
+#video-section {
+    position: relative;
+    top: 84px;
+    width: 952px;
+}
+
+.video-image-title img {
+    width: 952px;
+    height: 537px;
+}
+
+.video-image-title h1,
+.description {
+    width: 952px;
+}
+
+#sidebar {
+    width: 160px;
+    position: relative;
+    top: 84px;
+    display: inline;
+    gap: 16px;
+}
+
+.sidebar-image {
+    display: flex;
+    width: 196px;
+    margin-bottom: 20px;
+}
+
+.sidebar-videos {
+    width: 196px;
+    height: 89px;
+    left: 176px;
+}
+
+.sidebar-video-title {
+    margin-bottom: 5px;
+    margin-left: 5px;
+    width: 196px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    color: #000000;
+}
+
+
+.sidebar-channel,
+.sidebar-video-info {
+    margin-bottom: 5px;
+    margin-left: 5px;
+    height: auto;
+    width: 156px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    color: #515151;
+}
